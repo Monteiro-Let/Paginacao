@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+ul {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.bloco, .arrow {
+    padding: 5px;
+    text-align: center;
+    width: 30px;
+    list-style: none;
+    border: solid gainsboro 1px;
+    color: blue;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+.arrow:hover {
+    background-color: gainsboro;
+}
+
+.bloco:hover {
+    background-color: gainsboro;
+}
